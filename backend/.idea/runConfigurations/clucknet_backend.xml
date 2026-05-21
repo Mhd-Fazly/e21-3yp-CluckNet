@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="clucknet-backend" type="Application" factoryName="Application">
+    <envs>
+      <env name="INFLUX_BUCKET" value="clucknet_db" />
+      <env name="INFLUX_ORG" value="group18" />
+      <env name="INFLUX_TOKEN" value="40nZr-lE7lU562-qQDuc6lrrhepWozeAsm9BtzF_fcK_RsQAl0IJ-DCf9n7ZEjfh9ffrUZOd5wBLpH0CfgNlOA==" />
+      <env name="INFLUX_URL" value="http://localhost:8086" />
+      <env name="MQTT_BROKER_URL" value="ssl://baee56899d174ecca33b3c50d09bf2e7.s1.eu.hivemq.cloud:8883" />
+      <env name="MQTT_CLIENT_ID" value="clucknet-springboot-backend" />
+      <env name="MQTT_PASSWORD" value="3yp_cluckNet" />
+      <env name="MQTT_USER" value="clucknet3yp" />
+      <env name="MYSQL_PASSWORD" value="rN$77_18" />
+      <env name="MYSQL_URL" value="jdbc:mysql://localhost:3306/clucknet_db" />
+      <env name="MYSQL_USER" value="root" />
+      <env name="MQTT_TOPIC" value="clucknet/zone/+/data  clucknet/zone/+/data  " />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.clucknet.backend.ClucknetBackendApplication" />
+    <module name="clucknet-backend" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
