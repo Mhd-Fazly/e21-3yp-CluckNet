@@ -138,7 +138,7 @@ Sensors
 
 # 📁 Project Structure
 
-text
+```text
 clucknet/
 │
 ├── edge-esp32/          # Edge ESP32 source code
@@ -148,6 +148,7 @@ clucknet/
 ├── diagrams/            # System diagrams & UML
 ├── docs/                # Documentation
 └── README.md
+```
 
 ## 👨‍💻 Team
 
