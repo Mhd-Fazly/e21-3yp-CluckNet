@@ -1,4 +1,4 @@
-package com.clucknet.backend.entity.mysql;
+package com.clucknet.backend.entity;
 
 public enum AlertStatus {
     ACTIVE,
